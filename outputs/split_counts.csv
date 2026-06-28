@@ -1,0 +1,4 @@
+split,total,pneumonia,normal
+train,5216,3875,1341
+val,16,8,8
+test,624,390,234

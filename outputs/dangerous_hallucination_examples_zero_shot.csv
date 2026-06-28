@@ -1,0 +1,1 @@
+image_path,label,pred_diagnosis,pred_confidence,pred_findings,pred_explanation,valid_json,valid_diagnosis,raw_output,correct,faithfulness_score,fluency_proxy_score,explanation_length_words,number_of_medical_keywords,has_structured_findings,tag

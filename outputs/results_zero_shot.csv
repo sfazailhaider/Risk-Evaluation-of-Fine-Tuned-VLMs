@@ -1,0 +1,1601 @@
+image_path,label,pred_diagnosis,pred_confidence,pred_findings,pred_explanation,valid_json,valid_diagnosis,raw_output,correct,faithfulness_score,fluency_proxy_score,explanation_length_words,number_of_medical_keywords,has_structured_findings,tag
+/content/chest_xray/test/PNEUMONIA/person139_bacteria_663.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person134_bacteria_640.jpeg,pneumonia,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",0,0.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0110-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0370-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0309-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0229-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0369-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0086-0001.jpeg,normal,normal,medium,[],No significant findings observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the lung fields.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person80_bacteria_390.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person101_bacteria_483.jpeg,pneumonia,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person57_virus_113.jpeg,pneumonia,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other radiographic features indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other radiographic features indicative of pneumonia.""
+}
+```",0,1.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0241-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1_virus_12.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person122_bacteria_582.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person11_virus_38.jpeg,pneumonia,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",0,0.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person69_virus_129.jpeg,pneumonia,normal,medium,[],"The image shows no signs of consolidation, infiltrates, or other radiographic features indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows no signs of consolidation, infiltrates, or other radiographic features indicative of pneumonia.""
+}
+```",0,1.0,0.0,15,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1632_virus_2827.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0364-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.""
+}
+```",1,0.0,0.5,12,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0366-0001.jpeg,normal,normal,medium,[],No significant findings indicating pneumonia or other abnormalities.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings indicating pneumonia or other abnormalities.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0287-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person130_bacteria_628.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person114_bacteria_545.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""no consolidation""]",The lung fields appear clear without any signs of consolidation or abnormal opacities that would suggest pneumonia.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation or abnormal opacities that would suggest pneumonia.""
+}
+```",0,1.0,1.0,17,4,True,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1657_virus_2864.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0288-0001.jpeg,normal,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0338-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person19_virus_50.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0221-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would suggest pneumonia.""
+}
+```",1,0.0,0.5,12,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1622_virus_2810.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person134_bacteria_641.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0222-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0041-0001.jpeg,normal,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",1,0.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person64_virus_122.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person67_virus_126.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person66_virus_125.jpeg,pneumonia,pneumonia,medium,"[""altered lung markings"", ""possible consolidation""]","The image shows increased lung markings and possible areas of consolidation, which are indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""altered lung markings"", ""possible consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows increased lung markings and possible areas of consolidation, which are indicative of pneumonia.""
+}
+```",1,1.0,1.0,16,1,True,zero_shot
+/content/chest_xray/test/PNEUMONIA/person20_virus_51.jpeg,pneumonia,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person130_bacteria_626.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0362-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person111_bacteria_537.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person161_bacteria_757.jpeg,pneumonia,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0325-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person133_bacteria_638.jpeg,pneumonia,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0323-0001.jpeg,normal,normal,medium,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0097-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0049-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0380-0001.jpeg,normal,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0315-0001.jpeg,normal,pneumonia,medium,"[""alveolar opacities"", ""hilar lymphadenopathy""]",Alveolar opacities and hilar lymphadenopathy suggest pneumonia.,True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""alveolar opacities"", ""hilar lymphadenopathy""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""Alveolar opacities and hilar lymphadenopathy suggest pneumonia.""
+}
+```",0,0.0,0.5,7,1,True,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0271-0001.jpeg,normal,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person133_bacteria_635.jpeg,pneumonia,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1664_virus_2877.jpeg,pneumonia,normal,medium,[],"The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person113_bacteria_541.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0027-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0219-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1650_virus_2852.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1643_virus_2843.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0359-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0281-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person36_virus_81.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person24_virus_58.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1618_virus_2805.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0327-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.""
+}
+```",1,0.0,0.5,12,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0347-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0092-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1667_virus_2881.jpeg,pneumonia,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0312-0001.jpeg,normal,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1669_virus_2885.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0350-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0337-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0286-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0173-0001-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person136_bacteria_654.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1668_virus_2882.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person26_virus_60.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person112_bacteria_538.jpeg,pneumonia,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0085-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0274-0001.jpeg,normal,normal,medium,[],"The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0357-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person54_virus_109.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0102-0001.jpeg,normal,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person78_bacteria_385.jpeg,pneumonia,normal,high,"[""no consolidation"", ""no pleural effusion""]",The lung fields appear clear without any signs of consolidation or pleural effusion.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""no consolidation"", ""no pleural effusion""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation or pleural effusion.""
+}
+```",0,1.0,0.5,13,2,True,zero_shot
+/content/chest_xray/test/NORMAL/IM-0107-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.""
+}
+```",1,0.0,0.5,12,1,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0109-0001.jpeg,normal,normal,high,"[""no consolidation"", ""clear lung fields""]",The lung fields appear clear without any signs of consolidation or abnormal opacities that would suggest pneumonia.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""no consolidation"", ""clear lung fields""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation or abnormal opacities that would suggest pneumonia.""
+}
+```",1,1.0,1.0,17,4,True,zero_shot
+/content/chest_xray/test/NORMAL/IM-0016-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0129-0001.jpeg,normal,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other radiographic features indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other radiographic features indicative of pneumonia.""
+}
+```",1,0.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person62_virus_119.jpeg,pneumonia,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person75_virus_136.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person138_bacteria_659.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1660_virus_2869.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0011-0001-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0279-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0095-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0009-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person93_bacteria_453.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0354-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0277-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person86_bacteria_428.jpeg,pneumonia,normal,high,[],"No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.""
+}
+```",0,1.0,0.5,12,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person158_bacteria_744.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1651_virus_2855.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1641_virus_2840.jpeg,pneumonia,normal,medium,[],No significant findings indicating pneumonia or other abnormalities.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings indicating pneumonia or other abnormalities.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0023-0001.jpeg,normal,normal,high,[],"The lungs appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lungs appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,15,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0065-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person143_bacteria_689.jpeg,pneumonia,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",0,1.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1629_virus_2823.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person126_bacteria_598.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0348-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person109_bacteria_519.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person78_bacteria_386.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0303-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0087-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person78_bacteria_378.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person149_bacteria_713.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0251-0001.jpeg,normal,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",1,0.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0290-0001.jpeg,normal,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",1,0.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0011-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person88_bacteria_439.jpeg,pneumonia,normal,medium,[],"The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0328-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0028-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0300-0001.jpeg,normal,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",1,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0120-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person44_virus_94.jpeg,pneumonia,normal,medium,[],"The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person130_bacteria_627.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person119_bacteria_568.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0249-0001.jpeg,normal,pneumonia,medium,"[""altered lung markings"", ""possible consolidation""]","The image shows increased lung markings and possible areas of consolidation, which are indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""altered lung markings"", ""possible consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows increased lung markings and possible areas of consolidation, which are indicative of pneumonia.""
+}
+```",0,0.0,1.0,16,1,True,zero_shot
+/content/chest_xray/test/PNEUMONIA/person22_virus_54.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1661_virus_2872.jpeg,pneumonia,pneumonia,medium,"[""alveolar opacities"", ""honeycombing pattern""]","The image shows alveolar opacities and a honeycombing pattern, which are indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""alveolar opacities"", ""honeycombing pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows alveolar opacities and a honeycombing pattern, which are indicative of pneumonia.""
+}
+```",1,1.0,0.5,14,1,True,zero_shot
+/content/chest_xray/test/PNEUMONIA/person53_virus_108.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0111-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1662_virus_2875.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0063-0001.jpeg,normal,normal,medium,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person122_bacteria_583.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person120_bacteria_573.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0297-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0084-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0289-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0135-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person77_virus_139.jpeg,pneumonia,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",0,0.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person52_virus_106.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person109_bacteria_528.jpeg,pneumonia,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",0,1.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person120_bacteria_571.jpeg,pneumonia,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person59_virus_116.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person142_bacteria_684.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person81_bacteria_395.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person111_bacteria_534.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""no consolidation""]",The chest x-ray shows clear lung fields without any signs of consolidation or other abnormalities that would suggest pneumonia.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest x-ray shows clear lung fields without any signs of consolidation or other abnormalities that would suggest pneumonia.""
+}
+```",0,1.0,1.0,19,3,True,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0131-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0275-0001.jpeg,normal,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person151_bacteria_718.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0052-0001.jpeg,normal,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0033-0001-0002.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0233-0001.jpeg,normal,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",1,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0256-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0037-0001.jpeg,normal,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",1,0.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0376-0001.jpeg,normal,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",1,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0081-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or other radiographic findings indicative of pneumonia.""
+}
+```",1,0.0,0.5,12,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0331-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1631_virus_2826.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person136_bacteria_649.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0353-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person96_bacteria_464.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0043-0001.jpeg,normal,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",1,0.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0101-0001.jpeg,normal,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other radiographic features indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other radiographic features indicative of pneumonia.""
+}
+```",1,0.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0035-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person143_bacteria_687.jpeg,pneumonia,pneumonia,medium,"[""hazy opacities in the right lung field"", ""possible consolidation""]",Hazy opacities and possible consolidation in the right lung suggest pneumonia.,True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""hazy opacities in the right lung field"", ""possible consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""Hazy opacities and possible consolidation in the right lung suggest pneumonia.""
+}
+```",1,1.0,0.5,11,2,True,zero_shot
+/content/chest_xray/test/PNEUMONIA/person124_bacteria_590.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0103-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0316-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1_virus_13.jpeg,pneumonia,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person122_bacteria_586.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person134_bacteria_644.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0070-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0010-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, heart size, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, heart size, or mediastinum.""
+}
+```",1,1.0,0.5,12,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0139-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person158_bacteria_745.jpeg,pneumonia,pneumonia,medium,"[""right lower lobe consolidation"", ""pleural effusion""]","The right lower lobe shows increased density and blunting of the costophrenic angle, indicative of consolidation. There is also a suggestion of pleural effusion on the right side.",True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""right lower lobe consolidation"", ""pleural effusion""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The right lower lobe shows increased density and blunting of the costophrenic angle, indicative of consolidation. There is also a suggestion of pleural effusion on the right side.""
+}
+```",1,1.0,1.0,28,1,True,zero_shot
+/content/chest_xray/test/NORMAL/IM-0015-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person123_bacteria_587.jpeg,pneumonia,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",0,0.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person103_bacteria_489.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person85_bacteria_424.jpeg,pneumonia,normal,high,"[""no consolidation"", ""no pleural effusion""]",The lung fields appear clear without any signs of consolidation or pleural effusion.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""no consolidation"", ""no pleural effusion""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation or pleural effusion.""
+}
+```",0,1.0,0.5,13,2,True,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0096-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0112-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0238-0001.jpeg,normal,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",1,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0294-0001.jpeg,normal,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person90_bacteria_443.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person81_bacteria_396.jpeg,pneumonia,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0107-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0210-0001.jpeg,normal,pneumonia,medium,"[""alveolar opacities"", ""hilar lymphadenopathy""]",Alveolar opacities and hilar lymphadenopathy suggest pneumonia.,True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""alveolar opacities"", ""hilar lymphadenopathy""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""Alveolar opacities and hilar lymphadenopathy suggest pneumonia.""
+}
+```",0,0.0,0.5,7,1,True,zero_shot
+/content/chest_xray/test/PNEUMONIA/person109_bacteria_513.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1678_virus_2895.jpeg,pneumonia,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person155_bacteria_731.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0081-0001.jpeg,normal,normal,medium,[],No significant abnormalities observed in the lung fields.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields.""
+}
+```",1,1.0,0.5,8,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person114_bacteria_544.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person121_bacteria_580.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1675_virus_2891.jpeg,pneumonia,normal,high,[],"The chest X-ray shows no signs of consolidation, atelectasis, or other radiographic features indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, atelectasis, or other radiographic features indicative of pneumonia.""
+}
+```",0,1.0,0.0,16,1,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0030-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1656_virus_2862.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0319-0001.jpeg,normal,normal,medium,[],"No significant abnormalities observed in the lung fields, trachea, or mediastinum.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant abnormalities observed in the lung fields, trachea, or mediastinum.""
+}
+```",1,1.0,0.5,11,1,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person94_bacteria_456.jpeg,pneumonia,normal,medium,[],No significant findings observed in the chest X-ray.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No significant findings observed in the chest X-ray.""
+}
+```",0,0.5,0.5,8,0,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person1661_virus_2873.jpeg,pneumonia,pneumonia,medium,"[""alveolar opacities"", ""honeycombing pattern""]","The image shows alveolar opacities and a honeycombing pattern, which are indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""alveolar opacities"", ""honeycombing pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows alveolar opacities and a honeycombing pattern, which are indicative of pneumonia.""
+}
+```",1,1.0,0.5,14,1,True,zero_shot
+/content/chest_xray/test/PNEUMONIA/person91_bacteria_449.jpeg,pneumonia,normal,high,[],"The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities that would suggest pneumonia.""
+}
+```",0,1.0,0.0,16,4,False,zero_shot
+/content/chest_xray/test/PNEUMONIA/person142_bacteria_682.jpeg,pneumonia,pneumonia,medium,"[""hazy opacification of the right lung field"", ""enlarged heart shadow""]",Hazy opacification in the right lung and enlarged heart shadow suggest possible pneumonia.,True,True,"```json
+{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""hazy opacification of the right lung field"", ""enlarged heart shadow""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""Hazy opacification in the right lung and enlarged heart shadow suggest possible pneumonia.""
+}
+```",1,0.5,0.5,13,0,True,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0023-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot
+/content/chest_xray/test/NORMAL/IM-0079-0001.jpeg,normal,normal,medium,[],"The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The lung fields appear clear without any visible consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,16,3,False,zero_shot
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0013-0001.jpeg,normal,normal,high,[],"The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation, infiltrates, or masses that would suggest pneumonia.""
+}
+```",1,0.0,0.0,17,3,False,zero_shot

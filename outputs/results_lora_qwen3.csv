@@ -1,0 +1,1201 @@
+image_path,label,pred_diagnosis,pred_confidence,pred_findings,pred_explanation,valid_json,valid_diagnosis,raw_output,correct,faithfulness_score,fluency_proxy_score,explanation_length_words,number_of_medical_keywords,has_structured_findings,tag
+/content/chest_xray/test/PNEUMONIA/person139_bacteria_663.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lung fields"", ""blurred costophrenic angles""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lung fields"", ""blurred costophrenic angles""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,2,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person134_bacteria_640.jpeg,pneumonia,pneumonia,medium,"[""consolidation in right lower lung zone"", ""increased opacity in right lung field""]","The chest X-ray shows patchy opacities consistent with consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in right lower lung zone"", ""increased opacity in right lung field""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows patchy opacities consistent with consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.""
+}",1,1.0,1.0,22,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0110-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0370-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0309-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0229-0001.jpeg,normal,pneumonia,medium,"[""bilateral lung opacities"", ""increased lung density""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""increased lung density""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",0,0.0,0.5,10,1,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0369-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0086-0001.jpeg,normal,normal,high,"[""lung fields appear clear"", ""no visible consolidation or infiltrates""]","The chest X-ray shows symmetrical lung fields without signs of infection or consolidation, indicating a normal appearance.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""lung fields appear clear"", ""no visible consolidation or infiltrates""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of infection or consolidation, indicating a normal appearance.""
+}",1,1.0,1.0,17,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person80_bacteria_390.jpeg,pneumonia,normal,high,"[""visible rib cage and spine"", ""medical tubing present""]","The chest X-ray shows normal lung fields without consolidation or infiltrates, and no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""visible rib cage and spine"", ""medical tubing present""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation or infiltrates, and no signs of pneumonia.""
+}",0,1.0,1.0,16,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person101_bacteria_483.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""increased lung density""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""increased lung density""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,1,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person57_virus_113.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0241-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1_virus_12.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",0,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person122_bacteria_582.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""increased lung density""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""increased lung density""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,1,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person11_virus_38.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,20,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person69_virus_129.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lung fields"", ""consolidation patterns""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lung fields"", ""consolidation patterns""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1632_virus_2827.jpeg,pneumonia,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",0,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0364-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0366-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0287-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",1,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person130_bacteria_628.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.""
+}",0,1.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person114_bacteria_545.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows clear lung fields without signs of consolidation or infiltrates, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows clear lung fields without signs of consolidation or infiltrates, consistent with a normal chest X-ray.""
+}",0,1.0,1.0,19,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1657_virus_2864.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in the right lower lung zone"", ""consolidation pattern""]","The image shows patchy opacities consistent with consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in the right lower lung zone"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.""
+}",1,1.0,1.0,21,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0288-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0338-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible ribs and spine without abnormalities""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine without abnormalities""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person19_virus_50.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""increased lung density""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""increased lung density""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,1,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0221-0001.jpeg,normal,pneumonia,medium,"[""increased opacity in right lower lung zone"", ""possible consolidation""]","the image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lower lung zone"", ""possible consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""the image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.""
+}",0,0.0,1.0,22,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1622_virus_2810.jpeg,pneumonia,normal,high,"[""lung fields appear clear"", ""no consolidation or infiltrates visible""]","The chest X-ray shows clear lung fields without signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""lung fields appear clear"", ""no consolidation or infiltrates visible""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows clear lung fields without signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.""
+}",0,1.0,1.0,19,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person134_bacteria_641.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.""
+}",0,1.0,1.0,16,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0222-0001.jpeg,normal,pneumonia,medium,"[""bilateral lung opacities"", ""increased lung density""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""increased lung density""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",0,0.0,0.5,10,1,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0041-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person64_virus_122.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.""
+}",0,1.0,1.0,16,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person67_virus_126.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""consolidation in lower lobes""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, with notable consolidation in the lower lobes.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""consolidation in lower lobes""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, with notable consolidation in the lower lobes.""
+}",1,1.0,1.0,17,2,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person66_virus_125.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person20_virus_51.jpeg,pneumonia,pneumonia,medium,"[""bilateral infiltrates"", ""increased lung opacity""]",The chest X-ray shows bilateral lung infiltrates consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral infiltrates"", ""increased lung opacity""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung infiltrates consistent with pneumonia.""
+}",1,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person130_bacteria_626.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0362-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person111_bacteria_537.jpeg,pneumonia,pneumonia,medium,"[""consolidation in the right lower lung field"", ""increased opacity in the right lung""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung field, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in the right lower lung field"", ""increased opacity in the right lung""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung field, which is suggestive of pneumonia.""
+}",1,1.0,1.0,22,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person161_bacteria_757.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0325-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and heart shadow""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and heart shadow""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,19,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person133_bacteria_638.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible ribs and spine without abnormalities""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine without abnormalities""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0323-0001.jpeg,normal,pneumonia,medium,"[""bilateral lung infiltrates"", ""consolidation in lower lobes""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung infiltrates"", ""consolidation in lower lobes""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",0,0.0,0.5,10,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0097-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0049-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.""
+}",1,1.0,0.0,20,4,False,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0380-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0315-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0271-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person133_bacteria_635.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lower lung zones"", ""blurred costophrenic angles""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly prominent in the lower lung zones.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lower lung zones"", ""blurred costophrenic angles""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly prominent in the lower lung zones.""
+}",1,1.0,1.0,17,2,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1664_virus_2877.jpeg,pneumonia,pneumonia,medium,"[""bilateral infiltrates"", ""consolidation""]","The chest X-ray shows bilateral lung infiltrates and consolidation, which are consistent with pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral infiltrates"", ""consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung infiltrates and consolidation, which are consistent with pneumonia.""
+}",1,1.0,0.5,14,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person113_bacteria_541.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0027-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0219-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1650_virus_2852.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}",0,1.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1643_virus_2843.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lung fields"", ""consolidation patterns""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lung fields"", ""consolidation patterns""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0359-0001.jpeg,normal,pneumonia,medium,"[""consolidation in the left lower lung field"", ""increased opacity in the left lower lobe""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the left lower lobe, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in the left lower lung field"", ""increased opacity in the left lower lobe""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the left lower lobe, which is suggestive of pneumonia.""
+}",0,0.0,1.0,21,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0281-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person36_virus_81.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and heart shadow""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and heart shadow""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person24_virus_58.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lung fields"", ""consolidation patterns""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lung fields"", ""consolidation patterns""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1618_virus_2805.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in the right lower lung zone"", ""hazy infiltrates in the right middle lung zone""]","The image shows bilateral lung opacities consistent with pneumonia, with more prominent findings in the right lung.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in the right lower lung zone"", ""hazy infiltrates in the right middle lung zone""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows bilateral lung opacities consistent with pneumonia, with more prominent findings in the right lung.""
+}",1,1.0,1.0,17,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0327-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0347-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0092-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1667_virus_2881.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0312-0001.jpeg,normal,pneumonia,medium,"[""bilateral infiltrates"", ""consolidation in lower lung zones""]","The chest X-ray shows bilateral lung infiltrates consistent with pneumonia, with more prominent consolidation in the lower lung zones.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral infiltrates"", ""consolidation in lower lung zones""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung infiltrates consistent with pneumonia, with more prominent consolidation in the lower lung zones.""
+}",0,0.0,1.0,19,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1669_virus_2885.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lung fields"", ""consolidation patterns""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lung fields"", ""consolidation patterns""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0350-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.""
+}",1,0.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0337-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0286-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0173-0001-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person136_bacteria_654.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1668_virus_2882.jpeg,pneumonia,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",0,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person26_virus_60.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person112_bacteria_538.jpeg,pneumonia,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",0,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0085-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0274-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating a normal appearance.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating a normal appearance.""
+}",1,1.0,1.0,15,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0357-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",1,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person54_virus_109.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0102-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.""
+}",1,1.0,0.0,20,4,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person78_bacteria_385.jpeg,pneumonia,normal,high,"[""visible rib cage and spine"", ""presence of medical device""]",No signs of lung consolidation or infiltrates consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""visible rib cage and spine"", ""presence of medical device""],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of lung consolidation or infiltrates consistent with pneumonia.""
+}",0,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0107-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0109-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}",1,0.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0016-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0129-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person62_virus_119.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in right lower lung zone"", ""consolidation pattern""]","the image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lower lung zone"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""the image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, suggestive of pneumonia.""
+}",1,1.0,1.0,20,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person75_virus_136.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person138_bacteria_659.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible ribs and spine""]","The chest X-ray shows clear lung fields without consolidation or infiltrates, indicating no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows clear lung fields without consolidation or infiltrates, indicating no signs of pneumonia.""
+}",0,1.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1660_virus_2869.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0011-0001-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0279-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible ribs and spine without abnormal opacities""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest appearance.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine without abnormal opacities""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest appearance.""
+}",1,1.0,1.0,19,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0095-0001.jpeg,normal,pneumonia,medium,"[""increased lung opacity"", ""consolidation""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased lung opacity"", ""consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",0,0.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0009-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",1,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person93_bacteria_453.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0354-0001.jpeg,normal,pneumonia,medium,"[""increased opacity in right lung field"", ""consolidation pattern""]","The chest X-ray shows patchy opacities consistent with lung consolidation, more prominent on the right side, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lung field"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows patchy opacities consistent with lung consolidation, more prominent on the right side, which is suggestive of pneumonia.""
+}",0,0.0,1.0,21,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0277-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person86_bacteria_428.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person158_bacteria_744.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""consolidation""]","The chest X-ray shows bilateral lung opacities consistent with consolidation, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with consolidation, which is suggestive of pneumonia.""
+}",1,1.0,1.0,15,2,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1651_virus_2855.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lower lung zones"", ""blurred costophrenic angles""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the lower lung zones.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lower lung zones"", ""blurred costophrenic angles""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the lower lung zones.""
+}",1,1.0,1.0,16,2,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1641_virus_2840.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in the right lower lung field"", ""consolidation pattern""]","The image shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in the right lower lung field"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.""
+}",1,1.0,0.5,14,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0023-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0065-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person143_bacteria_689.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung infiltrates"", ""increased opacity in lung fields""]",The chest X-ray shows bilateral lung infiltrates consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung infiltrates"", ""increased opacity in lung fields""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung infiltrates consistent with pneumonia.""
+}",1,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1629_virus_2823.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in right lower lung zone"", ""blurred lung borders""]","The image shows patchy opacities consistent with consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lower lung zone"", ""blurred lung borders""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.""
+}",1,1.0,1.0,21,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person126_bacteria_598.jpeg,pneumonia,pneumonia,medium,"[""consolidation in the right lower lung field"", ""increased opacity in the right lung base""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung field, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in the right lower lung field"", ""increased opacity in the right lung base""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung field, which is suggestive of pneumonia.""
+}",1,1.0,1.0,22,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0348-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person109_bacteria_519.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible ribs and spine""]","The chest X-ray shows clear lung fields without consolidation or infiltrates, indicating no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows clear lung fields without consolidation or infiltrates, indicating no signs of pneumonia.""
+}",0,1.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person78_bacteria_386.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows normal lung parenchyma without consolidation or infiltrates, and bony structures appear intact.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung parenchyma without consolidation or infiltrates, and bony structures appear intact.""
+}",0,1.0,1.0,16,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0303-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.""
+}",1,0.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0087-0001.jpeg,normal,pneumonia,medium,"[""consolidation in right lower lung field"", ""increased opacity in right lower lobe""]","presence of patchy opacities consistent with lung consolidation, suggestive of pneumonia",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in right lower lung field"", ""increased opacity in right lower lobe""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""presence of patchy opacities consistent with lung consolidation, suggestive of pneumonia""
+}",0,0.0,0.5,11,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person78_bacteria_378.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating a normal appearance.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating a normal appearance.""
+}",0,1.0,1.0,15,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person149_bacteria_713.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0251-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0290-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0011-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.""
+}",1,1.0,0.0,20,4,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person88_bacteria_439.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in the right lower lung field"", ""consolidation pattern""]","The image shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in the right lower lung field"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.""
+}",1,1.0,0.5,14,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0328-0001.jpeg,normal,pneumonia,medium,"[""increased opacity in right lower lung zone"", ""possible consolidation""]","the image shows patchy opacities consistent with lung consolidation, more prominent on the right side, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lower lung zone"", ""possible consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""the image shows patchy opacities consistent with lung consolidation, more prominent on the right side, which is suggestive of pneumonia.""
+}",0,0.0,1.0,20,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0028-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0300-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",1,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0120-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person44_virus_94.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",0,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person130_bacteria_627.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in the right lung field"", ""blurred lung markings""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, with more prominent involvement on the right side.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in the right lung field"", ""blurred lung markings""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, with more prominent involvement on the right side.""
+}",1,1.0,1.0,18,2,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person119_bacteria_568.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0249-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",1,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person22_virus_54.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and heart shadow""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and heart shadow""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1661_virus_2872.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""consolidation in upper lobes""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the upper lobes.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""consolidation in upper lobes""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the upper lobes.""
+}",1,1.0,1.0,15,2,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person53_virus_108.jpeg,pneumonia,pneumonia,medium,"[""consolidation in right lower lung zone"", ""increased opacity in right lung field""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in right lower lung zone"", ""increased opacity in right lung field""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.""
+}",1,1.0,1.0,22,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0111-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1662_virus_2875.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lower lung zones"", ""blurred costophrenic angles""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the lower lung zones.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lower lung zones"", ""blurred costophrenic angles""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the lower lung zones.""
+}",1,1.0,1.0,16,2,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0063-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",1,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person122_bacteria_583.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person120_bacteria_573.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lower lung zones"", ""consolidation pattern""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the lower lung zones.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lower lung zones"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the lower lung zones.""
+}",1,1.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0297-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,19,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0084-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0289-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0135-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,20,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person77_virus_139.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""increased lung density""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""increased lung density""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,1,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person52_virus_106.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person109_bacteria_528.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in right lung field"", ""consolidation pattern""]","The image shows patchy opacities consistent with lung consolidation, more prominent on the right side, suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lung field"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent on the right side, suggestive of pneumonia.""
+}",1,1.0,1.0,18,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person120_bacteria_571.jpeg,pneumonia,pneumonia,medium,"[""consolidation in right lower lung zone"", ""increased opacity in right lung field""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in right lower lung zone"", ""increased opacity in right lung field""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.""
+}",1,1.0,1.0,22,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person59_virus_116.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in the right lower lung zone"", ""possible consolidation""]","The image shows patchy opacities consistent with lung consolidation, more prominent on the right side, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in the right lower lung zone"", ""possible consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent on the right side, which is suggestive of pneumonia.""
+}",1,1.0,1.0,20,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person142_bacteria_684.jpeg,pneumonia,pneumonia,medium,"[""consolidation in the right lower lung field"", ""increased opacity in the right lung""]","The chest X-ray shows patchy opacities consistent with lung consolidation, most prominent in the right lower lung field, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in the right lower lung field"", ""increased opacity in the right lung""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows patchy opacities consistent with lung consolidation, most prominent in the right lower lung field, which is suggestive of pneumonia.""
+}",1,1.0,1.0,23,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person81_bacteria_395.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",0,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person111_bacteria_534.jpeg,pneumonia,pneumonia,medium,"[""consolidation in the right lower lung field"", ""increased opacity in the right lung""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly prominent in the right lower lung field.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in the right lower lung field"", ""increased opacity in the right lung""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly prominent in the right lower lung field.""
+}",1,1.0,1.0,18,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0131-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.""
+}",1,0.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0275-0001.jpeg,normal,pneumonia,medium,"[""increased opacity in right lower lung zone"", ""consolidation pattern""]","the image shows patchy opacities consistent with lung consolidation, suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lower lung zone"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""the image shows patchy opacities consistent with lung consolidation, suggestive of pneumonia.""
+}",0,0.0,0.5,12,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person151_bacteria_718.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible ribs and spine without abnormal opacities""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine without abnormal opacities""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",0,1.0,1.0,18,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0052-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.""
+}",1,1.0,0.0,20,4,False,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0033-0001-0002.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0233-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0256-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, infiltrates, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, infiltrates, or other signs of pneumonia.""
+}",1,1.0,0.0,15,4,False,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0037-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0376-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.""
+}",1,1.0,1.0,16,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0081-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0331-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1631_virus_2826.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in right lower lung zone"", ""possible consolidation""]","the image shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lower lung zone"", ""possible consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""the image shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.""
+}",1,1.0,0.5,14,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person136_bacteria_649.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in lung fields"", ""consolidation patterns""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lung fields"", ""consolidation patterns""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0353-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person96_bacteria_464.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia. Lung fields appear clear with normal cardiac silhouette and bony structures.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia. Lung fields appear clear with normal cardiac silhouette and bony structures.""
+}",0,1.0,1.0,27,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0043-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0101-0001.jpeg,normal,pneumonia,medium,"[""increased opacity in right lower lung zone"", ""consolidation pattern""]","the image shows patchy opacities consistent with lung consolidation, suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in right lower lung zone"", ""consolidation pattern""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""the image shows patchy opacities consistent with lung consolidation, suggestive of pneumonia.""
+}",0,0.0,0.5,12,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0035-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",1,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person143_bacteria_687.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""increased lung density""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""increased lung density""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",1,1.0,0.5,10,1,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person124_bacteria_590.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia. Lung fields appear clear and structures are normally aligned.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia. Lung fields appear clear and structures are normally aligned.""
+}",0,1.0,1.0,25,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0103-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0316-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}",1,0.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1_virus_13.jpeg,pneumonia,pneumonia,medium,"[""consolidation in right lower lung field"", ""increased opacity in right lung""]","The image shows bilateral lung opacities consistent with pneumonia, particularly prominent on the right side.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in right lower lung field"", ""increased opacity in right lung""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows bilateral lung opacities consistent with pneumonia, particularly prominent on the right side.""
+}",1,1.0,1.0,15,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person122_bacteria_586.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities typically associated with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities typically associated with pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person134_bacteria_644.jpeg,pneumonia,pneumonia,medium,"[""consolidation in right lower lung field"", ""increased opacity in right lower lobe""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lobe, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in right lower lung field"", ""increased opacity in right lower lobe""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lobe, which is suggestive of pneumonia.""
+}",1,1.0,1.0,21,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0070-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields, clear costophrenic angles, and no signs of consolidation or infiltrates consistent with pneumonia.""
+}",1,1.0,0.0,20,4,False,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0010-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0139-0001.jpeg,normal,pneumonia,medium,"[""increased opacity in the right lower lung field"", ""blurred lung borders""]","The image shows patchy infiltrates consistent with pneumonia, particularly in the right lower lung field.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in the right lower lung field"", ""blurred lung borders""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy infiltrates consistent with pneumonia, particularly in the right lower lung field.""
+}",0,0.0,1.0,15,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person158_bacteria_745.jpeg,pneumonia,normal,high,"[""lung fields appear clear"", ""no visible consolidation or infiltrates""]","The chest X-ray shows clear lung fields without signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""lung fields appear clear"", ""no visible consolidation or infiltrates""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows clear lung fields without signs of consolidation, infiltrates, or other abnormalities typically associated with pneumonia.""
+}",0,1.0,1.0,19,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0015-0001.jpeg,normal,pneumonia,medium,"[""increased opacity in lung fields"", ""consolidation patterns""]",The chest X-ray shows bilateral lung opacities consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in lung fields"", ""consolidation patterns""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia.""
+}",0,0.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person123_bacteria_587.jpeg,pneumonia,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",0,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person103_bacteria_489.jpeg,pneumonia,pneumonia,medium,"[""increased opacity in the right lower lung field"", ""possible consolidation""]","the image shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""increased opacity in the right lower lung field"", ""possible consolidation""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""the image shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.""
+}",1,1.0,0.5,14,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person85_bacteria_424.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.""
+}",0,1.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0096-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0112-0001.jpeg,normal,pneumonia,medium,"[""consolidation in the right lower lung field"", ""increased opacity in the right lung base""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung field, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in the right lower lung field"", ""increased opacity in the right lung base""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung field, which is suggestive of pneumonia.""
+}",0,0.0,1.0,22,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0238-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation or infiltrates, indicating no signs of pneumonia.""
+}",1,0.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0294-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person90_bacteria_443.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}",0,1.0,1.0,16,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person81_bacteria_396.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0107-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0210-0001.jpeg,normal,pneumonia,medium,"[""bilateral infiltrates"", ""increased lung opacity""]",The chest X-ray shows bilateral lung infiltrates consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral infiltrates"", ""increased lung opacity""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung infiltrates consistent with pneumonia.""
+}",0,0.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person109_bacteria_513.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible ribs and spine""]","The chest X-ray shows clear lung fields without consolidation or infiltrates, and normal bony structures, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows clear lung fields without consolidation or infiltrates, and normal bony structures, consistent with a normal chest X-ray.""
+}",0,1.0,1.0,21,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1678_virus_2895.jpeg,pneumonia,pneumonia,medium,"[""bilateral infiltrates"", ""increased lung opacity""]",The chest X-ray shows bilateral lung infiltrates consistent with pneumonia.,True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral infiltrates"", ""increased lung opacity""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung infiltrates consistent with pneumonia.""
+}",1,1.0,0.5,10,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person155_bacteria_731.jpeg,pneumonia,pneumonia,medium,"[""consolidation in the right lower lung zone"", ""increased opacity in the right lung field""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in the right lower lung zone"", ""increased opacity in the right lung field""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.""
+}",1,1.0,1.0,22,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0081-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person114_bacteria_544.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person121_bacteria_580.jpeg,pneumonia,pneumonia,medium,"[""consolidation in right lower lung zone"", ""increased opacity in right lung field""]","The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in right lower lung zone"", ""increased opacity in right lung field""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The image shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, suggestive of pneumonia.""
+}",1,1.0,1.0,20,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1675_virus_2891.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible ribs and spine without abnormalities""]","The chest X-ray shows normal lung parenchyma without infiltrates or consolidation, and bony structures appear intact.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine without abnormalities""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung parenchyma without infiltrates or consolidation, and bony structures appear intact.""
+}",0,1.0,1.0,16,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0030-0001.jpeg,normal,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",1,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1656_virus_2862.jpeg,pneumonia,normal,high,[],"The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows normal lung fields without consolidation, pleural effusion, or other signs of pneumonia.""
+}",0,1.0,0.0,16,2,False,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0319-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person94_bacteria_456.jpeg,pneumonia,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows no signs of consolidation, infiltrates, or abnormal opacities that would suggest pneumonia.""
+}",0,1.0,1.0,16,5,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person1661_virus_2873.jpeg,pneumonia,pneumonia,medium,"[""bilateral lung opacities"", ""consolidation in upper lobes""]","The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the upper lobes.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""bilateral lung opacities"", ""consolidation in upper lobes""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows bilateral lung opacities consistent with pneumonia, particularly in the upper lobes.""
+}",1,1.0,1.0,15,2,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person91_bacteria_449.jpeg,pneumonia,pneumonia,medium,"[""consolidation in right lower lung zone"", ""increased opacity in right lung field""]","The chest X-ray shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in right lower lung zone"", ""increased opacity in right lung field""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows patchy opacities consistent with lung consolidation, more prominent in the right lower lung zone, which is suggestive of pneumonia.""
+}",1,1.0,1.0,23,3,True,qwen3_lora
+/content/chest_xray/test/PNEUMONIA/person142_bacteria_682.jpeg,pneumonia,pneumonia,medium,"[""consolidation in the left lower lung field"", ""increased opacity in the left lung""]","The chest X-ray shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.",True,True,"{
+  ""diagnosis"": ""pneumonia"",
+  ""findings"": [""consolidation in the left lower lung field"", ""increased opacity in the left lung""],
+  ""confidence"": ""medium"",
+  ""explanation"": ""The chest X-ray shows patchy opacities consistent with lung consolidation, which is suggestive of pneumonia.""
+}",1,1.0,1.0,15,3,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0023-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible ribs and spine without abnormal shadows""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible ribs and spine without abnormal shadows""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,19,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/IM-0079-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""visible rib cage and spine""]","The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""visible rib cage and spine""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without consolidation, infiltrates, or pleural effusion, consistent with a normal chest.""
+}",1,1.0,1.0,18,4,True,qwen3_lora
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0013-0001.jpeg,normal,normal,high,"[""clear lung fields"", ""no consolidation""]","The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.",True,True,"{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""clear lung fields"", ""no consolidation""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The chest X-ray shows symmetrical lung fields without signs of consolidation, infiltrates, or pleural effusion, consistent with a normal chest X-ray.""
+}",1,1.0,1.0,21,5,True,qwen3_lora

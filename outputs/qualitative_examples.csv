@@ -1,0 +1,33 @@
+image_path,label,pred_diagnosis,pred_confidence,pred_findings,pred_explanation,valid_json,valid_diagnosis,raw_output,correct,faithfulness_score,fluency_proxy_score,explanation_length_words,number_of_medical_keywords,has_structured_findings,tag,category
+/content/chest_xray/test/NORMAL/IM-0109-0001.jpeg,normal,normal,high,"[""no consolidation"", ""clear lung fields""]",The lung fields appear clear without any signs of consolidation or abnormal opacities that would suggest pneumonia.,True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [""no consolidation"", ""clear lung fields""],
+  ""confidence"": ""high"",
+  ""explanation"": ""The lung fields appear clear without any signs of consolidation or abnormal opacities that would suggest pneumonia.""
+}
+```",1,1.0,1.0,17,4,True,zero_shot,correct_high_conf_faithful
+/content/chest_xray/test/PNEUMONIA/person139_bacteria_663.jpeg,pneumonia,normal,medium,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""medium"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",0,1.0,0.5,14,1,False,zero_shot,wrong_low_med_conf
+/content/chest_xray/test/PNEUMONIA/person1632_virus_2827.jpeg,pneumonia,normal,high,[],"No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, infiltrates, or pleural effusion that would suggest pneumonia.""
+}
+```",0,1.0,0.5,12,3,False,zero_shot,wrong_high_conf_fluent
+/content/chest_xray/test/NORMAL/NORMAL2-IM-0110-0001.jpeg,normal,normal,high,[],"No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.",True,True,"```json
+{
+  ""diagnosis"": ""normal"",
+  ""findings"": [],
+  ""confidence"": ""high"",
+  ""explanation"": ""No signs of consolidation, atelectasis, or pleural effusion that would be indicative of pneumonia.""
+}
+```",1,0.0,0.5,14,1,False,zero_shot,correct_but_contradictory_explanation
